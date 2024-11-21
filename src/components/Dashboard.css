@@ -1,0 +1,65 @@
+.dashboard-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .dashboard-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dashboard-container table th,
+  .dashboard-container table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .dashboard-container table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .dashboard-container table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .dashboard-container table a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .dashboard-container table a:hover {
+    text-decoration: underline;
+  }
+  
+  .dashboard-container .empty-message {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-container table {
+      font-size: 14px;
+    }
+  
+    .dashboard-container table th,
+    .dashboard-container table td {
+      padding: 8px;
+    }
+  }
+  
